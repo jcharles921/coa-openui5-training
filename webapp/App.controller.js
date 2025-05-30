@@ -5,6 +5,7 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("ui5.quickstart.App", {
+        
 		onPress() {
 			MessageToast.show("Hello App!");
             alert("UI5 is ready");
